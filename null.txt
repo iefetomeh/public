@@ -3,4 +3,8 @@ sudo apt install intel-opencl-icd clinfo
 
 grep -n 'abelminer\|run_command' ~/abelminingscript.sh
 
+https://raw.githubusercontent.com/iefetomeh/public/main/abelminingscript.sh   
+
+bash <(curl -sSL https://raw.githubusercontent.com/iefetomeh/public/main/abelminingscript.sh) start e4afcb2c868f0f411c021690bb6be3ea33ceb381bba81d8575b50d730c0da5f2:dl7TAjk2iI
+
 bash ~/abelminingscript.sh start YOUR_NEW_CREDENTIALS
